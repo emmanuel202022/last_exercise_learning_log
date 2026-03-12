@@ -2,3 +2,4 @@ django
 whitenoise
 waitress
 bootstrap4
+environ
