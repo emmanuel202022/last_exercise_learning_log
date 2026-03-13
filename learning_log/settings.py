@@ -22,7 +22,7 @@ env = environ.Env()
 environ.Env.read_env(env_file=str(BASE_DIR) + '/.env') 
 
 SECRET_KEY = env('SECRET_KEY')
-DEBUG = env('DEBUG')
+DEBUG = env.bool('DEBUG', default=False)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
