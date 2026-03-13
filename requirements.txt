@@ -1,5 +1,5 @@
 django
 whitenoise
 waitress
-bootstrap4
-environ
+django-bootstrap4
+django-environ
